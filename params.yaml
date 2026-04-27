@@ -1,0 +1,8 @@
+model:
+  n_estimators: 100     #no of XGBoost tree
+  max_depth: 6          #depth of each tree can grow
+  learning_rate: 0.1    #speed of models to learn (lower = more careful)
+  random_state: 42 
+
+data:
+  test_size: 0.2        #20% testing, 80% training
