@@ -220,4 +220,5 @@ __marimo__/
 #DVC - data and model file tracked by DVC, not Git
 /data
 /models
+!.dvc
 *.dvc
